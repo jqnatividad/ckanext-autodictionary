@@ -37,7 +37,7 @@ ckanext-autodictionary
    Consider including some screenshots or embedding a video!
 
 Automatically create data dictionaries for all datastore objects. This extension leverages Postgres' native
-system catalog tables to pre-populate the data dictionary and also makes use of Postgres' native `COMMENT <https://www.postgresql.org/docs/9.6/static/sql-comment.html>`
+system catalog tables to pre-populate the data dictionary and also makes use of Postgres' native `COMMENT <https://www.postgresql.org/docs/9.6/static/sql-comment.html>`_
 command to add a user-friendly field name and description.
 
 ------------
@@ -81,7 +81,7 @@ Config Settings
 
 Document any optional config settings here. For example::
 
-    # Include descriptive statistics from pg_stats view
+    # Include descriptive statistics from `pg_stats <https://www.postgresql.org/docs/9.3/static/view-pg-stats.html>`_ view
     # (optional, default: false).
     ckanext.autodictionary.include_stats = true
 
