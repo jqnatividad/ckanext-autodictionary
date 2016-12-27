@@ -79,12 +79,19 @@ To install ckanext-autodictionary:
 Config Settings
 ---------------
 
-Document any optional config settings here. For example::
+Document any optional config settings here. For example:
 
-    Include `pg_stats <https://www.postgresql.org/docs/9.3/static/view-pg-stats.html>`_ view info
+* Include `pg_stats <https://www.postgresql.org/docs/9.3/static/view-pg-stats.html>`_ view info
+    
     # Include descriptive statistics from pg_stats view
     # (optional, default: false).
     ckanext.autodictionary.include_stats = true
+
+* Show related tables (i.e. tables that have columns with the same name)
+
+    # show related tables
+    # (optional, default: false)
+    ckanext.autodictionary.show_related_tables = true
 
 
 ------------------------
